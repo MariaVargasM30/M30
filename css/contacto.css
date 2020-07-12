@@ -1,0 +1,145 @@
+body {
+    background-color:#F3F3F3;
+}
+.header-section .logo {
+	text-align: center;
+}
+
+.header-section .logo a {
+		display: inline-block;
+
+}
+.button{
+	border: 2px solid #3569af;
+	border-radius: 10px 10px 10px 10px;
+	color: #3569af;
+	display: inline-block;
+	font-size: 1.50em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+
+}
+.button:hover{
+	background-color:#3569af;
+	color: white;
+}
+.button_activo{
+	background-color:  #3569af;
+	border: 2px solid #3569af;
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	display: inline-block;
+	font-size: 1.50em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+}
+.menu{
+	text-align: center;
+}
+.menu{
+	font-family: 'Baloo Bhai', cursive;
+}
+h1{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 35px ;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+}
+.contenedor{
+    position: relative;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.contenedor .carta{
+    position: relative;
+    height: 250px;
+    background: rgb(209, 202, 202);
+    display: flex;
+    width: 400px;
+    margin: 30px 0;
+}
+.contenedor .carta .imagenn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#01295e ;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.contenedor .carta:hover .imagenn{
+    width: 200px;
+    height: 200px;
+    left: -50px;
+    top: calc( 50% - 100px);
+    transition: 0.5s ease-in-out;
+    background:  #3569af ;
+}              
+      
+.contenedor .carta .imagenn img{
+    max-width: 100%;
+    transition: 0.5s ease-in-out;
+}          
+.contenedor .carta:hover .imagenn img{
+    max-width: 100px;
+}
+
+.contenedor .carta .texto{
+    position: absolute;
+    width: calc(100% - 75px);    
+    height: 100%;
+    padding-left: 110px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.footer{
+	background: #3569af;
+	width: 100%;
+	height: 60px auto;
+    margin-top: 10px;
+    padding: 20px;
+       
+}
+.iconos{
+	width: 100%;
+	height:auto;
+	margin: auto;
+}
+.iconos ul li:hover{
+	filter: drop-shadow(2px 2px 2px rgba(0, 247, 255, 0.801));
+}
+.iconos ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.iconos ul li{
+	display: inline-block;
+	margin: 0px 70px;
+}

@@ -1,0 +1,174 @@
+body {
+    background-color:#F3F3F3;
+}
+.header-section .logo {
+	text-align: center;
+}
+
+.header-section .logo a {
+		display: inline-block;
+
+}
+.button{
+	border: 2px solid #3569af;
+	border-radius: 10px 10px 10px 10px;
+	color: #3569af;
+	display: inline-block;
+	font-size: 1.50em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+
+}
+.button:hover{
+	background-color:#3569af;
+	color: white;
+}
+.button_activo{
+	background-color:  #3569af;
+	border: 2px solid #3569af;
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	display: inline-block;
+	font-size: 1.50em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+}
+.menu{
+	text-align: center;
+}
+.menu{
+	font-family: 'Baloo Bhai', cursive;
+}
+h1{
+    text-align: center;
+	font-size: 33px;
+    color: black;  
+    font-family: 'Baloo Bhai', cursive;
+}h1{
+    display: inline-block;
+    position: relative;
+}
+h1::after,h1::before{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: black;
+    top: 0.6em;
+}
+h1::before{
+left: -130px;
+}
+h1::after{
+    right: -130px;
+    }
+h2{
+	text-align: center;
+	font-size: 33px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+    }
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+    
+}  
+.img{
+    width: 100%;
+}
+.columna{
+    margin: 5px;
+    filter: blur(0px)
+}
+.columna:hover{
+        filter:blur(5px)
+}
+.galeria .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+
+@media(min-width:1200px){
+    .columna{
+        width: 41%;
+    }
+    .contenedor{ 
+        width: 1200px;
+    }
+}
+.arriba{
+    display: none;
+    position: fixed;
+    background: #01295e ;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    right: 20px;
+    bottom: 10px;
+}
+
+.arriba .cm-arriba{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #F3F3F3;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+    width: 0;
+    transition: 0.4s;
+}
+.arriba .icono{
+    background: #01295e;
+    color: white;
+    font-size: 20px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+
+.footer{
+        background: #3569af;
+        width: 100%;
+        height: 60px auto;
+        margin-top: 10px;
+        padding: 20px;
+           
+}
+.iconos{
+        width: 100%;
+        height:auto;
+        margin: auto;
+}
+.iconos ul li:hover{
+	filter: drop-shadow(2px 2px 2px rgba(0, 247, 255, 0.801));
+}
+.iconos ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+}
+.iconos ul li{
+        display: inline-block;
+        margin: 0px 70px;
+}

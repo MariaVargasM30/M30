@@ -1,0 +1,62 @@
+
+.slides{
+	margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.flexslider{
+    width: 100%;
+    position: relative;
+}
+.slides img{
+    width: 100%;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+}
+
+.flex-control-nav{
+    width: 100%;
+    text-align: center;
+}
+.flex-control-nav li{
+    display: inline-block;
+    margin: 0px 6px;
+}
+.flex-control-nav li a{
+    display: block;
+    background: #3569af;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    text-indent: -9999px;
+}
+.flex-control-nav li a:hover{
+    background: #01295e;
+}
+.flex-control-nav li a.flex-active{
+    background: #01295e;
+}
+.flex-direction-nav a{
+    display: block;
+    text-decoration:  none;
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    }
+.flex-direction-nav .flex-prev{
+    left: 0;
+    text-indent: -9999px;
+}
+
+.flex-direction-nav .flex-next{
+    right: 0;
+    text-indent: -9999px;
+}
