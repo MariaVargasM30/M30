@@ -1,0 +1,141 @@
+body {
+    background-color:#F3F3F3;
+}
+.header-section .logo {
+	text-align: center;
+}
+
+.header-section .logo a {
+		display: inline-block;
+
+}
+.button{
+	border: 2px solid #3569af;
+	border-radius: 10px 10px 10px 10px;
+	color: #3569af;
+	display: inline-block;
+	font-size: 1.50em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+
+}
+.button:hover{
+	background-color:#3569af;
+	color: white;
+}
+.button_activo{
+	background-color:  #3569af;
+	border: 2px solid #3569af;
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	display: inline-block;
+	font-size: 1.50em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+}
+
+.menu{
+	text-align: center;
+}
+.menu{
+	font-family: 'Baloo Bhai', cursive;
+}
+h2{
+	text-align: center;
+	font-size: 33px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	}
+.efecto{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.efecto_columna{
+	width: 340px;
+	height: 340px;
+	position: relative;
+	text-align: center;
+	transform-style: preserve-3d;
+	transition: .7s ease;
+	box-shadow: 0px 10px 15px -5px rgba(8, 119, 209, 0.5);
+}
+.contenedor{
+	margin: 10px;
+	perspective: 800;
+}
+.adelante, .atras{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+.atras{
+	background: #F3F3F3;
+	transform: rotateY(180deg);
+}
+.contenedor:hover .efecto_columna{
+	transform: rotateY(180deg);
+}
+.texto{
+	padding-top: 40px;
+}
+.texto1{
+	padding-top: 100px;
+}
+
+.footer{
+	background: #3569af;
+	width: 97%;
+	height: 60px auto;
+    margin-top: 10px;
+    padding: 20px;
+       
+}
+.iconos{
+	width: 100%;
+	height:auto;
+	margin: auto;
+	
+}
+.iconos ul li:hover{
+	filter: drop-shadow(2px 2px 2px rgba(0, 247, 255, 0.801));
+}
+
+.iconos ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.iconos ul li{
+	display: inline-block;
+	margin: 0px 70px;
+}
+
+#preloader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background:white;
+	z-index: 1000;
+}
+#loader{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -50px 0 0 -50px;
+	background: url(../img/logo.gif) center 0  ;
+	
+}
